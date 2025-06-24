@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    max-height: 90vh;
+    font-family: 'Roboto', serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    height: 40px;
+}
+input{
+    border: 0;
+    border-bottom: 2px solid #90949c;
+    background-color: #FFFFFF;
+    color: #616771;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input:focus{
+    outline: none;
+}
+select{
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    height: 100%;
+    border-radius: 15px;
+}
+
+select:focus{
+    outline: none;
+    border: none;
+}
+
+select option{
+    background-color: #FFFFFF;
+}
+
+.btn {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color: #a1dcf6;
+    border: none;
+}
+
+.delete-button{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-container{
+    overflow-y: auto;
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+.table {
+    height: 100%;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+th, td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
